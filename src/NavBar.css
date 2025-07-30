@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 2px 8px #e0c3fc4d;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 2rem;
+  position: fixed;  /* fixed navbar always stays on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  backdrop-filter: blur(6px);
+}
+
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.55rem;
+  letter-spacing: 1px;
+  color: #8360c3;
+  text-shadow: 0 2px 8px #e0c3fc5e;
+}
