@@ -5,7 +5,7 @@ import Weather from "./Weather";
 function App() {
   return (
     <div style={{
-      height: "100vh",
+      minHeight: "calc(100vh - 16px)",   // This sets the min-height
       overflow: "hidden",     // disables scroll
       background: "linear-gradient(135deg, #8EC5FC 0%, #E0C3FC 100%)",
       display: "flex",
